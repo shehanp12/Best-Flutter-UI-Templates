@@ -68,11 +68,11 @@ class _RangeSliderViewState extends State<RangeSliderView> {
               ),
             ],
           ),
-          SliderTheme(
+        /*   SliderTheme(
             data: SliderThemeData(
               rangeThumbShape: CustomRangeThumbShape(),
-            ),
-            child: RangeSlider(
+            ), */
+          /*   child: RangeSlider(
               values: _values,
               min: 0.0,
               max: 1000.0,
@@ -87,15 +87,15 @@ class _RangeSliderViewState extends State<RangeSliderView> {
                   widget.onChangeRangeValues(_values);
                 } catch (_) {}
               },
-            ),
-          ),
+            ), */
+        /*   ), */
         ],
       ),
     );
   }
 }
 
-class CustomRangeThumbShape extends RangeSliderThumbShape {
+/* class CustomRangeThumbShape extends RangeSliderThumbShape {
   static const double _thumbSize = 3.0;
   static const double _disabledThumbSize = 3.0;
 
@@ -110,8 +110,8 @@ class CustomRangeThumbShape extends RangeSliderThumbShape {
     begin: _disabledThumbSize,
     end: _thumbSize,
   );
-
-  @override
+ */
+  /* @override
   void paint(
     PaintingContext context,
     Offset center, {
@@ -190,4 +190,4 @@ class CustomRangeThumbShape extends RangeSliderThumbShape {
 
   Path _leftTriangle(double size, Offset thumbCenter) =>
       _rightTriangle(size, thumbCenter, invert: true);
-}
+} */

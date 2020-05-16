@@ -46,11 +46,11 @@ class _SliderViewState extends State<SliderView> {
               ),
             ],
           ),
-          SliderTheme(
+          /* SliderTheme(
             data: SliderThemeData(
               thumbShape: CustomThumbShape(),
-            ),
-            child: Slider(
+            ), */
+            /* child: Slider(
               onChanged: (double value) {
                 setState(() {
                   distValue = value;
@@ -66,14 +66,14 @@ class _SliderViewState extends State<SliderView> {
               divisions: 100,
               value: distValue,
             ),
-          ),
+          ), */
         ],
       ),
     );
   }
 }
 
-class CustomThumbShape extends SliderComponentShape {
+/* class CustomThumbShape extends SliderComponentShape {
   static const double _thumbSize = 3.0;
   static const double _disabledThumbSize = 3.0;
 
@@ -130,3 +130,4 @@ class CustomThumbShape extends SliderComponentShape {
     return radius * 0.57735 + 0.5;
   }
 }
+ */
